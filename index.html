@@ -1,128 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
+<html>
+  <head>
+   <title> Anusha Datar</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
 
-  <title>Anusha Datar</title>
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+      }
 
-  <!-- css -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="css/nivo-lightbox.css" rel="stylesheet" />
-  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-  <link href="css/animate.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet">
+      .content {
+        flex: 1;
+        text-align: center;
+      }
 
-  <!-- template skin -->
-  <link id="t-colors" href="color/default.css" rel="stylesheet">
+      h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #333;
+        font-family: 'Roboto Mono', monospace;
+      }
 
-  <!-- =======================================================
-    Theme Name: Appland
-    Theme URL: https://bootstrapmade.com/free-bootstrap-app-landing-page-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
-</head>
+      p {
+        font-size: 20px;
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        font-family: 'Roboto Mono', monospace;
+      }
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+      .headshot {
+        flex-shrink: 0;
+        width: 200px;
+        height: 200px;
+        margin-right: 40px;
+        overflow: hidden;
+        background-color: #f7f7f7;
+      }
 
+      .headshot img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
 
-  <div id="wrapper">
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
 
-  	<br>
-    <!-- Section: intro -->
-    <section id="intro" class="intro">
-      <div class="intro-content">
-        <div class="container">
+      .links a {
+        display: inline-block;
+        margin: 10px;
+        padding: 12px 20px;
+        color: #333;
+        background-color: #f7f7f7;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+        font-family: 'Roboto Mono', monospace;      
+      }
 
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
-                <img src="img/photo.jpg" class="img-responsive" alt="" />
-
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-6 slogan">
-              <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-                <h2>Anusha Datar</h2>
-                <p>
-                	I enjoy learning about and working on problems involving embedded systems and wireless networking. I am currently an embedded software engineer at at <a href="https://www.meter.com/"> Meter</a>.  Before that, I got a degree in electrical and computer engineering at <a href="https://www.olin.edu/"> Olin College</a> and interned at companies including Google, Microsoft, Silicon Labs, and MITRE. I live in San Francisco and spend my time outside of work reading and learning new languages. Feel free to reach out to me! 
-                </p>
-              <center>
-               <a class="btn btn-primary wow" href="https://anushadatar.github.io/" role="button">Portfolio</a>
-    	         <a class="btn btn-primary wow" href="https://github.com/anushadatar" role="button">Github</a>
-    			     <a class="btn btn-primary wow" href="https://anushadatar.github.io/resume.pdf" role="button">Resume</a>
-               </center>
-    			<br><br>
-          <center>
-   	            <a class="btn btn-primary wow" href="https://www.linkedin.com/in/anusha-datar/" role="button">Linkedin</a>
-   	            <a class="btn btn-primary wow" href="https://www.goodreads.com/user/show/105192061-anusha-datar/" role="button">Goodreads</a>
-   	            <a class="btn btn-primary wow" href="https://medium.com/@anushadatar" role="button">Blog</a>
-   	            </center>
-                <br><br>
-                <center>
-   	            <a class="btn btn-primary wow" href="https://twitter.com/AnushaDatar" role="button">Twitter</a>
-   	            <a class="btn btn-primary wow" href="https://www.instagram.com/anushadatar/" role="button">Instagram</a>
-   	            <a class="btn btn-primary wow" href="mailto:anusha@anushadatar.com" role="button">Email</a>
-                </center>
-	   	        </center>
-                <br>
-              </div>
-
-            </div>
-          </div>
-        </div>
+      .links a:hover {
+        background-color: #e1e1e1;
+      }
+    </style>
+  <body>
+    <div class="container">
+      <div class="headshot">
+        <img src="img/headshot.jpg" alt="Headshot">
       </div>
-    </section>
-        <footer>
 
+      <div class="content">
 
-      <div class="sub-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="wow fadeInLeft" data-wow-delay="0.1s">
-                <div class="text-left">
-                  <p>&copy;Copyright - Appland. All rights reserved.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="wow fadeInRight" data-wow-delay="0.1s">
-                <div class="text-right margintop-30">
-                  <div class="credits">
-                    <!--
-                      All the links in the footer should remain intact.
-                      You can delete the links only if you purchased the pro version.
-                      Licensing information: https://bootstrapmade.com/license/
-                      Purchase the pro version form: https://bootstrapmade.com/buy/?theme=Appland
-                    -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="links">
+          <a href="https://anushadatar.github.io/resume.pdf">Resume</a>
+          <a href="https://linkedin.com/in/anusha-datar">LinkedIn</a>
+          <a href="https://www.goodreads.com/user/show/105192061-anusha-datar/">Goodreads</a>
         </div>
-      </div>
-    </footer>
 
-  </div>
-  <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-
-  <!-- Core JavaScript Files -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/jquery.scrollTo.js"></script>
-  <script src="js/nivo-lightbox.min.js"></script>
-  <script src="js/custom.js"></script>
-
-</body>
-
+       <div class="content">
+          <p>Hi! I'm Anusha Datar. I love solving problems that involve embedded software engineering, iterating on/scaling hardware, and wireless communications. </p>
+	  <p>When I'm not working, I spend my time roller skating, reading books, and making snow cones in San Francisco.</p>
+	  <p>Feel free to contact me at [firstname][lastname]@gmail.com!</p>
+        </div>
+    </div>
+  </head>
+  </body>
 </html>
+
